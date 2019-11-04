@@ -1,0 +1,4 @@
+gsoap-2.8/gsoap/plugin/wsaapi.c(1516): soap_wsa()
+gsoap-2.8/gsoap/plugin/wsaapi.c(1518): malloc(32) = 0x55c10c7ca6a0
+gsoap-2.8/gsoap/plugin/wsaapi.c(1543): soap_wsa_init()
+Registered 'SOAP-WSA/1.3' plugin

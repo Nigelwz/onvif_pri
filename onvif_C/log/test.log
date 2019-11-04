@@ -1,0 +1,922 @@
+gsoap-2.8/gsoap/plugin/wsaapi.c(624): soap_wsa_request(id=urn:uuid:f1ab9038-1787-4e12-ab8b-4567327b23c6, to=urn:schemas-xmlsoap-org:ws:2005:04:discovery, action=http://schemas.xmlsoap.org/ws/2005/04/discovery/Hello)
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(88) = 0x55c10c7c9b20
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(64) = 0x55c10c7c9bb0
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(64) = 0x55c10c7c9c30
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(72) = 0x55c10c7c9cb0
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(88) = 0x55c10c7c9d30
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(88) = 0x55c10c7c9dc0
+gsoap-2.8/gsoap/plugin/wsaapi.c(862): soap_wsa_check()
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(48) = 0x55c10c7c9e50
+Clean up for input/output
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+gsoap-2.8/gsoap/stdsoap2.c(11544): free(0x55c10c7c92c0)
+Free ID hashtable
+Free pointer hashtable
+gsoap-2.8/gsoap/stdsoap2.c(12573): malloc(256) = 0x55c10c7c92c0
+Free namespace stack
+Begin count phase (socket=3 mode=0x41 count=0)
+End of count phase
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(72) = 0x55c10c7c9ef0
+Connect/reconnect to 'soap.udp://239.255.255.250:3702' host='239.255.255.250' path='/' port=3702
+Calculating the message size with attachments, current count=0
+New count=0
+Initializing for output to socket=3/fd=1
+Free namespace stack
+Begin send phase (socket=3 mode=0x2000045 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:wsa'='http://schemas.xmlsoap.org/ws/2004/08/addressing'
+Attribute 'xmlns:wsdd'='http://schemas.xmlsoap.org/ws/2005/04/discovery'
+Attribute 'xmlns:tdn'='http://www.onvif.org/ver10/network/wsdl'
+Element begin tag='SOAP-ENV:Header' level='1' id='0' type=''
+Element_id 0x55c10c7c9bb0 type=4 id=-1
+Element begin tag='wsa:MessageID' level='2' id='0' type=''
+Element ending tag='wsa:MessageID'
+Element_id 0x55c10c7c9d30 type=25 id=-1
+Element begin tag='wsa:ReplyTo' level='2' id='0' type=''
+Attribute 'SOAP-ENV:mustUnderstand'='true'
+Element_id 0x55c10c7c9dc0 type=4 id=-1
+Element begin tag='wsa:Address' level='3' id='0' type=''
+Element ending tag='wsa:Address'
+Element ending tag='wsa:ReplyTo'
+Element_id 0x55c10c7c9c30 type=4 id=-1
+Element begin tag='wsa:To' level='2' id='0' type=''
+Attribute 'SOAP-ENV:mustUnderstand'='true'
+Element ending tag='wsa:To'
+Element_id 0x55c10c7c9cb0 type=4 id=-1
+Element begin tag='wsa:Action' level='2' id='0' type=''
+Attribute 'SOAP-ENV:mustUnderstand'='true'
+Element ending tag='wsa:Action'
+Element_id 0x55c10c7c9e50 type=54 id=-1
+Set attribute InstanceId='0'
+Allocate attribute InstanceId
+gsoap-2.8/gsoap/stdsoap2.c(14062): malloc(58) = 0x55c10c7c9f70
+gsoap-2.8/gsoap/stdsoap2.c(14145): malloc(2) = 0x55c10c7c9ff0
+Allocate attribute value for InstanceId (0x55c10c7c9ff0)
+Set attribute MessageNumber='1'
+Allocate attribute MessageNumber
+gsoap-2.8/gsoap/stdsoap2.c(14062): malloc(61) = 0x55c10c7ca040
+gsoap-2.8/gsoap/stdsoap2.c(14145): malloc(2) = 0x55c10c7ca0c0
+Allocate attribute value for MessageNumber (0x55c10c7ca0c0)
+Element begin tag='wsdd:AppSequence' level='2' id='0' type=''
+Element ending tag='wsdd:AppSequence'
+Element ending tag='SOAP-ENV:Header'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element_id 0x7ffe20bf4480 type=43 id=-1
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+gsoap-2.8/gsoap/stdsoap2.c(14392): malloc(256) = 0x55c10c7ca110
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(48) = 0x55c10c7ca250
+Element begin tag='wsdd:Hello' level='2' id='0' type=''
+Element begin tag='wsa:EndpointReference' level='3' id='-1' type=''
+Element_id 0x55c10ac78bb0 type=4 id=-1
+Element begin tag='wsa:Address' level='4' id='0' type=''
+Element ending tag='wsa:Address'
+Element ending tag='wsa:EndpointReference'
+Element_id 0x55c10c7ca250 type=6 id=-1
+Element begin tag='wsdd:Types' level='3' id='0' type=''
+Element ending tag='wsdd:Types'
+Element_id 0x7ffe20bf4470 type=51 id=-1
+Element_id 0x55c10ac78a98 type=56 id=0
+Element begin tag='wsdd:Scopes' level='3' id='0' type=''
+Element ending tag='wsdd:Scopes'
+Element_id 0x55c10ac78c58 type=56 id=-1
+Element begin tag='wsdd:XAddrs' level='3' id='0' type=''
+Element ending tag='wsdd:XAddrs'
+Element begin tag='wsdd:MetadataVersion' level='3' id='-1' type=''
+Element ending tag='wsdd:MetadataVersion'
+Element ending tag='wsdd:Hello'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x2000045
+Send 1640 bytes to socket=3/fd=1
+End of send phase
+Clean up for input/output
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7c9ff0)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7c9f70)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7ca0c0)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7ca040)
+gsoap-2.8/gsoap/stdsoap2.c(11528): free(0x55c10c7ca110)
+gsoap-2.8/gsoap/stdsoap2.c(11544): free(0x55c10c7c92c0)
+Free ID hashtable
+Free pointer hashtable
+Initializing for input from socket=3/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free ID hashtable
+Free pointer hashtable
+gsoap-2.8/gsoap/stdsoap2.c(12573): malloc(256) = 0x55c10c7c92c0
+Free ID hashtable
+Read 1640 bytes from socket=3/fd=0
+Read count=1640 (+1640)
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(62) = 0x55c10c7ca040
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+gsoap-2.8/gsoap/stdsoap2.c(14392): malloc(256) = 0x55c10c7ca110
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7ca580
+gsoap-2.8/gsoap/stdsoap2.c(3573): malloc(40) = 0x55c10c7cd990
+Push namespace binding (level=0) 'SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(62) = 0x55c10c7c9f70
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7cda20
+gsoap-2.8/gsoap/stdsoap2.c(3573): malloc(40) = 0x55c10c7cdb60
+Push namespace binding (level=0) 'SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Push OK ('SOAP-ENC' matches 'SOAP-ENC' in namespace table)
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(57) = 0x55c10c7cdbc0
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7cdc40
+gsoap-2.8/gsoap/stdsoap2.c(3573): malloc(35) = 0x55c10c7cdd80
+Push namespace binding (level=0) 'xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(57) = 0x55c10c7cdde0
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7cde60
+gsoap-2.8/gsoap/stdsoap2.c(3573): malloc(35) = 0x55c10c7cdfa0
+Push namespace binding (level=0) 'xsd'='http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(57) = 0x55c10c7ce000
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7ce080
+gsoap-2.8/gsoap/stdsoap2.c(3573): malloc(35) = 0x55c10c7ce1c0
+Push namespace binding (level=0) 'wsa'='http://schemas.xmlsoap.org/ws/2004/08/addressing'
+Push OK ('wsa' matches 'wsa' in namespace table)
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(58) = 0x55c10c7ce220
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7ce2a0
+gsoap-2.8/gsoap/stdsoap2.c(3573): malloc(36) = 0x55c10c7ce3e0
+Push namespace binding (level=0) 'wsdd'='http://schemas.xmlsoap.org/ws/2005/04/discovery'
+Push OK ('wsdd' matches 'wsdd' in namespace table)
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(57) = 0x55c10c7ce440
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7ce4c0
+gsoap-2.8/gsoap/stdsoap2.c(3573): malloc(35) = 0x55c10c7ce600
+Push namespace binding (level=0) 'tdn'='http://www.onvif.org/ver10/network/wsdl'
+Push OK ('tdn' matches 'tdn' in namespace table)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+gsoap-2.8/gsoap/stdsoap2.c(12487): malloc(40) = 0x55c10c7ce660
+Tags and (default) namespaces match: 'SOAP-ENV:Header' 'SOAP-ENV:Header'
+Begin tag found (level=2) 'SOAP-ENV:Header'='SOAP-ENV:Header'
+Enter id='' type=29 location=(nil) size=64
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(88) = 0x55c10c7ce6c0
+Tags and (default) namespaces match: 'wsa:MessageID' 'wsa:MessageID'
+Begin tag found (level=3) 'wsa:MessageID'='wsa:MessageID'
+Reading string content, flag=1
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(64) = 0x55c10c7ce750
+Enter id='' type=4 location=0x55c10c7ce750 size=8
+End tag found (level=3) 'wsa:MessageID'='wsa:MessageID'
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(71) = 0x55c10c7ce7d0
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7ce850
+Tags and (default) namespaces match: 'SOAP-ENV:mustUnderstand' 'SOAP-ENV:mustUnderstand'
+Tags and (default) namespaces match: 'wsa:ReplyTo' 'wsa:ReplyTo'
+Begin tag found (level=3) 'wsa:ReplyTo'='wsa:ReplyTo'
+Reverting to last element 'wsa:ReplyTo' (level=2)
+Tags and (default) namespaces match: 'wsa:ReplyTo' 'wsa:ReplyTo'
+Begin tag found (level=3) 'wsa:ReplyTo'='wsa:ReplyTo'
+Enter id='' type=7 location=(nil) size=64
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(88) = 0x55c10c7ce990
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(24) = 0x55c10c7ca0c0
+Tags and (default) namespaces match: 'wsa:Address' 'wsa:Address'
+Begin tag found (level=4) 'wsa:Address'='wsa:Address'
+Reading string content, flag=1
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(88) = 0x55c10c7cea50
+Enter id='' type=4 location=0x55c10c7cea50 size=8
+End tag found (level=4) 'wsa:Address'='wsa:Address'
+End tag found (level=3) 'wsa:ReplyTo'='wsa:ReplyTo'
+Tags and (default) namespaces match: 'SOAP-ENV:mustUnderstand' 'SOAP-ENV:mustUnderstand'
+Tags and (default) namespaces match: 'wsa:To' 'wsa:To'
+Begin tag found (level=3) 'wsa:To'='wsa:To'
+Reading string content, flag=1
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(64) = 0x55c10c7ceae0
+Enter id='' type=4 location=0x55c10c7ceae0 size=8
+End tag found (level=3) 'wsa:To'='wsa:To'
+Tags and (default) namespaces match: 'SOAP-ENV:mustUnderstand' 'SOAP-ENV:mustUnderstand'
+Tags and (default) namespaces match: 'wsa:Action' 'wsa:Action'
+Begin tag found (level=3) 'wsa:Action'='wsa:Action'
+Reading string content, flag=1
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(72) = 0x55c10c7ceb60
+Enter id='' type=4 location=0x55c10c7ceb60 size=8
+End tag found (level=3) 'wsa:Action'='wsa:Action'
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(58) = 0x55c10c7cebe0
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7cec60
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(61) = 0x55c10c7ceda0
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7cee20
+Tags and (default) namespaces match: 'wsdd:AppSequence' 'wsdd:AppSequence'
+Begin tag found (level=3) 'wsdd:AppSequence'='wsdd:AppSequence'
+Reverting to last element 'wsdd:AppSequence' (level=2)
+Tags and (default) namespaces match: 'wsdd:AppSequence' 'wsdd:AppSequence'
+Begin tag found (level=3) 'wsdd:AppSequence'='wsdd:AppSequence'
+Enter id='' type=54 location=(nil) size=24
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(48) = 0x55c10c7cef60
+Atts match: 'InstanceId' 'InstanceId'
+Atts match: 'MessageNumber' 'MessageNumber'
+End tag found (level=3) 'wsdd:AppSequence'='wsdd:AppSequence'
+End tag found (level=2) 'SOAP-ENV:Header'='SOAP-ENV:Header'
+gsoap-2.8/gsoap/plugin/wsaapi.c(1589): soap_wsa_header()
+WSA action='http://schemas.xmlsoap.org/ws/2005/04/discovery/Hello'
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Tags and (default) namespaces match: 'wsdd:Hello' 'wsdd:Hello'
+Enter id='' type=82 location=0x7ffe20bf4530 size=8
+Tags and (default) namespaces match: 'wsdd:Hello' 'wsdd:Hello'
+Begin tag found (level=3) 'wsdd:Hello'='wsdd:Hello'
+Reverting to last element 'wsdd:Hello' (level=2)
+Tags and (default) namespaces match: 'wsdd:Hello' 'wsdd:Hello'
+Begin tag found (level=3) 'wsdd:Hello'='wsdd:Hello'
+Enter id='' type=43 location=(nil) size=96
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(120) = 0x55c10c7cefd0
+Tags and (default) namespaces match: 'wsa:EndpointReference' 'wsa:EndpointReference'
+Begin tag found (level=4) 'wsa:EndpointReference'='wsa:EndpointReference'
+Enter id='' type=7 location=0x55c10c7cefd0 size=64
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(24) = 0x55c10c7c9ff0
+Tags and (default) namespaces match: 'wsa:Address' 'wsa:Address'
+Begin tag found (level=5) 'wsa:Address'='wsa:Address'
+Reading string content, flag=1
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(64) = 0x55c10c7cf0b0
+Enter id='' type=4 location=0x55c10c7cf0b0 size=8
+End tag found (level=5) 'wsa:Address'='wsa:Address'
+End tag found (level=4) 'wsa:EndpointReference'='wsa:EndpointReference'
+Tags and (default) namespaces match: 'wsdd:Types' 'wsdd:Types'
+Begin tag found (level=4) 'wsdd:Types'='wsdd:Types'
+Reading string content, flag=2
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(48) = 0x55c10c7cf130
+Normalized namespace(s) of QNames 'dn:NetworkVideoTransmitter'gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(48) = 0x55c10c7cf1a0
+Enter id='' type=6 location=0x55c10c7cf1a0 size=8
+End tag found (level=4) 'wsdd:Types'='wsdd:Types'
+Tags and (default) namespaces match: 'wsdd:Scopes' 'wsdd:Scopes'
+Begin tag found (level=4) 'wsdd:Scopes'='wsdd:Scopes'
+Reverting to last element 'wsdd:Scopes' (level=3)
+Tags and (default) namespaces match: 'wsdd:Scopes' 'wsdd:Scopes'
+Begin tag found (level=4) 'wsdd:Scopes'='wsdd:Scopes'
+Enter id='' type=51 location=(nil) size=16
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(40) = 0x55c10c7cf210
+Reverting to last element 'wsdd:Scopes' (level=3)
+Tags and (default) namespaces match: 'wsdd:Scopes' 'wsdd:Scopes'
+Begin tag found (level=4) 'wsdd:Scopes'='wsdd:Scopes'
+Reading string content, flag=1
+Enlarging look-aside buffer to append data, size=256
+New look-aside buffer size=512
+gsoap-2.8/gsoap/stdsoap2.c(14392): malloc(512) = 0x55c10c7cf270
+gsoap-2.8/gsoap/stdsoap2.c(14402): free(0x55c10c7ca110)
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(296) = 0x55c10c7cf4b0
+Enter id='' type=56 location=0x55c10c7cf4b0 size=8
+End tag found (level=4) 'wsdd:Scopes'='wsdd:Scopes'
+Tags and (default) namespaces match: 'wsdd:XAddrs' 'wsdd:XAddrs'
+Begin tag found (level=4) 'wsdd:XAddrs'='wsdd:XAddrs'
+Reading string content, flag=1
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(64) = 0x55c10c7cf610
+Enter id='' type=56 location=0x55c10c7cf610 size=8
+End tag found (level=4) 'wsdd:XAddrs'='wsdd:XAddrs'
+Tags and (default) namespaces match: 'wsdd:MetadataVersion' 'wsdd:MetadataVersion'
+Begin tag found (level=4) 'wsdd:MetadataVersion'='wsdd:MetadataVersion'
+Enter id='' type=27 location=0x55c10c7cf028 size=4
+Element content value='10'
+End tag found (level=4) 'wsdd:MetadataVersion'='wsdd:MetadataVersion'
+End tag found (level=3) 'wsdd:Hello'='wsdd:Hello'
+End tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded refs
+Resolution phase
+Resolution done
+Free namespace stack
+gsoap-2.8/gsoap/stdsoap2.c(11571): free(0x55c10c7ce600)
+gsoap-2.8/gsoap/stdsoap2.c(11571): free(0x55c10c7ce3e0)
+gsoap-2.8/gsoap/stdsoap2.c(11571): free(0x55c10c7ce1c0)
+gsoap-2.8/gsoap/stdsoap2.c(11571): free(0x55c10c7cdfa0)
+gsoap-2.8/gsoap/stdsoap2.c(11571): free(0x55c10c7cdd80)
+gsoap-2.8/gsoap/stdsoap2.c(11571): free(0x55c10c7cdb60)
+gsoap-2.8/gsoap/stdsoap2.c(11571): free(0x55c10c7cd990)
+gsoap-2.8/gsoap/plugin/wsddapi.c(1236): __wsdd__Hello()
+gsoap-2.8/gsoap/plugin/wsaapi.c(862): soap_wsa_check()
+EndpointReference=urn:uuid:464A4854-4656-5242-4530-313035394100
+AppSeq id=0 seq=(null) msg=1
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7ca580)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7ca040)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7cda20)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7c9f70)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7cdc40)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7cdbc0)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7cde60)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7cdde0)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7ce080)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7ce000)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7ce2a0)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7ce220)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7ce4c0)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7ce440)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7ce850)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7ce7d0)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7cec60)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7cebe0)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7cee20)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7ceda0)
+gsoap-2.8/gsoap/stdsoap2.c(11528): free(0x55c10c7cf270)
+gsoap-2.8/gsoap/stdsoap2.c(11540): free(0x55c10c7ce660)
+gsoap-2.8/gsoap/stdsoap2.c(11544): free(0x55c10c7c92c0)
+Free ID hashtable
+Free pointer hashtable
+Free all soap_malloc() data
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cf610)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cf4b0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cf210)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cf1a0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cf130)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cf0b0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9ff0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cefd0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cef60)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ceb60)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ceae0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cea50)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ca0c0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ce990)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ce750)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ce6c0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ca250)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9ef0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9e50)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9dc0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9d30)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9cb0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9c30)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9bb0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9b20)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9aa0)
+Clean up for input/output
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free ID hashtable
+Free pointer hashtable
+Initializing for input from socket=3/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free ID hashtable
+Free pointer hashtable
+gsoap-2.8/gsoap/stdsoap2.c(12573): malloc(256) = 0x55c10c7ce4c0
+Free ID hashtable
+Read 0 bytes from socket=3/fd=0
+Sending back fault struct for error code -1
+gsoap-2.8/gsoap/stdsoap2.c(12487): malloc(40) = 0x55c10c7cdb60
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(96) = 0x55c10c7ce850
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(40) = 0x55c10c7ce1c0
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(32) = 0x55c10c7ce600
+gsoap-2.8/gsoap/plugin/wsaapi.c(1615): soap_wsa_set_error(code=(null), string=(null))
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+gsoap-2.8/gsoap/stdsoap2.c(11540): free(0x55c10c7cdb60)
+gsoap-2.8/gsoap/stdsoap2.c(11544): free(0x55c10c7ce4c0)
+Free ID hashtable
+Free pointer hashtable
+Free all soap_malloc() data
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ce600)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ce1c0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ce850)
+Clean up for input/output
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free ID hashtable
+Free pointer hashtable
+Initializing for input from socket=3/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free ID hashtable
+Free pointer hashtable
+gsoap-2.8/gsoap/stdsoap2.c(12573): malloc(256) = 0x55c10c7ce4c0
+Free ID hashtable
+Read 877 bytes from socket=3/fd=0
+Read count=877 (+877)
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(62) = 0x55c10c7ce440
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+gsoap-2.8/gsoap/stdsoap2.c(14392): malloc(256) = 0x55c10c7ce2a0
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7ce080
+gsoap-2.8/gsoap/stdsoap2.c(3573): malloc(40) = 0x55c10c7c9aa0
+Push namespace binding (level=0) 'SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(57) = 0x55c10c7ce220
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7cde60
+gsoap-2.8/gsoap/stdsoap2.c(3573): malloc(35) = 0x55c10c7c9ef0
+Push namespace binding (level=0) 'wsa'='http://schemas.xmlsoap.org/ws/2004/08/addressing'
+Push OK ('wsa' matches 'wsa' in namespace table)
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(58) = 0x55c10c7ce000
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7cdc40
+gsoap-2.8/gsoap/stdsoap2.c(3573): malloc(36) = 0x55c10c7cf0b0
+Push namespace binding (level=0) 'wsdd'='http://schemas.xmlsoap.org/ws/2005/04/discovery'
+Push OK ('wsdd' matches 'wsdd' in namespace table)
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(56) = 0x55c10c7c9e50
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7cda20
+gsoap-2.8/gsoap/stdsoap2.c(3573): malloc(34) = 0x55c10c7ce7d0
+Push namespace binding (level=0) 'dn'='http://www.onvif.org/ver10/network/wsdl'
+Push OK ('dn' matches 'tdn' in namespace table)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+gsoap-2.8/gsoap/stdsoap2.c(12487): malloc(40) = 0x55c10c7ce8f0
+Tags and (default) namespaces match: 'SOAP-ENV:Header' 'SOAP-ENV:Header'
+Begin tag found (level=2) 'SOAP-ENV:Header'='SOAP-ENV:Header'
+Enter id='' type=29 location=(nil) size=64
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(88) = 0x55c10c7c9b20
+Tags and (default) namespaces match: 'wsa:MessageID' 'wsa:MessageID'
+Begin tag found (level=3) 'wsa:MessageID'='wsa:MessageID'
+Reading string content, flag=1
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(64) = 0x55c10c7cdde0
+Enter id='' type=4 location=0x55c10c7cdde0 size=8
+End tag found (level=3) 'wsa:MessageID'='wsa:MessageID'
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(71) = 0x55c10c7cdbc0
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7ca110
+Tags and (default) namespaces match: 'SOAP-ENV:mustUnderstand' 'SOAP-ENV:mustUnderstand'
+Tags and (default) namespaces match: 'wsa:ReplyTo' 'wsa:ReplyTo'
+Begin tag found (level=3) 'wsa:ReplyTo'='wsa:ReplyTo'
+Reverting to last element 'wsa:ReplyTo' (level=2)
+Tags and (default) namespaces match: 'wsa:ReplyTo' 'wsa:ReplyTo'
+Begin tag found (level=3) 'wsa:ReplyTo'='wsa:ReplyTo'
+Enter id='' type=7 location=(nil) size=64
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(88) = 0x55c10c7c9d30
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(24) = 0x55c10c7ca0c0
+Tags and (default) namespaces match: 'wsa:Address' 'wsa:Address'
+Begin tag found (level=4) 'wsa:Address'='wsa:Address'
+Reading string content, flag=1
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(88) = 0x55c10c7c9dc0
+Enter id='' type=4 location=0x55c10c7c9dc0 size=8
+End tag found (level=4) 'wsa:Address'='wsa:Address'
+End tag found (level=3) 'wsa:ReplyTo'='wsa:ReplyTo'
+Tags and (default) namespaces match: 'SOAP-ENV:mustUnderstand' 'SOAP-ENV:mustUnderstand'
+Tags and (default) namespaces match: 'wsa:To' 'wsa:To'
+Begin tag found (level=3) 'wsa:To'='wsa:To'
+Reading string content, flag=1
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(64) = 0x55c10c7c9f70
+Enter id='' type=4 location=0x55c10c7c9f70 size=8
+End tag found (level=3) 'wsa:To'='wsa:To'
+Tags and (default) namespaces match: 'SOAP-ENV:mustUnderstand' 'SOAP-ENV:mustUnderstand'
+Tags and (default) namespaces match: 'wsa:Action' 'wsa:Action'
+Begin tag found (level=3) 'wsa:Action'='wsa:Action'
+Reading string content, flag=1
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(72) = 0x55c10c7ca040
+Enter id='' type=4 location=0x55c10c7ca040 size=8
+End tag found (level=3) 'wsa:Action'='wsa:Action'
+End tag found (level=2) 'SOAP-ENV:Header'='SOAP-ENV:Header'
+gsoap-2.8/gsoap/plugin/wsaapi.c(1589): soap_wsa_header()
+WSA action='http://schemas.xmlsoap.org/ws/2005/04/discovery/Probe'
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Tags and (default) namespaces match: 'wsdd:Probe' 'wsdd:Probe'
+Enter id='' type=88 location=0x7ffe20bf4530 size=8
+Tags and (default) namespaces match: 'wsdd:Probe' 'wsdd:Probe'
+Begin tag found (level=3) 'wsdd:Probe'='wsdd:Probe'
+Reverting to last element 'wsdd:Probe' (level=2)
+Tags and (default) namespaces match: 'wsdd:Probe' 'wsdd:Probe'
+Begin tag found (level=3) 'wsdd:Probe'='wsdd:Probe'
+Enter id='' type=45 location=(nil) size=16
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(40) = 0x55c10c7ceee0
+Tags and (default) namespaces match: 'wsdd:Types' 'wsdd:Types'
+Begin tag found (level=4) 'wsdd:Types'='wsdd:Types'
+Reading string content, flag=2
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(48) = 0x55c10c7ca250
+Normalized namespace(s) of QNames 'dn:NetworkVideoTransmitter'gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(48) = 0x55c10c7cef60
+Enter id='' type=6 location=0x55c10c7cef60 size=8
+End tag found (level=4) 'wsdd:Types'='wsdd:Types'
+End tag found (level=3) 'wsdd:Probe'='wsdd:Probe'
+End tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded refs
+Resolution phase
+Resolution done
+Free namespace stack
+gsoap-2.8/gsoap/stdsoap2.c(11571): free(0x55c10c7ce7d0)
+gsoap-2.8/gsoap/stdsoap2.c(11571): free(0x55c10c7cf0b0)
+gsoap-2.8/gsoap/stdsoap2.c(11571): free(0x55c10c7c9ef0)
+gsoap-2.8/gsoap/stdsoap2.c(11571): free(0x55c10c7c9aa0)
+gsoap-2.8/gsoap/plugin/wsddapi.c(1388): __wsdd__Probe()
+gsoap-2.8/gsoap/plugin/wsaapi.c(862): soap_wsa_check()
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(408) = 0x55c10c7cb710
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(40) = 0x55c10c7c9ef0
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(64) = 0x55c10c7cb8b0
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(48) = 0x55c10c7cf130
+gsoap-2.8/gsoap/plugin/wsaapi.c(893): soap_wsa_reply(action=http://schemas.xmlsoap.org/ws/2005/04/discovery/ProbeMatches)
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(88) = 0x55c10c7ce6c0
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(64) = 0x55c10c7cb960
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(80) = 0x55c10c7ce990
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(48) = 0x55c10c7cf1a0
+Clean up for input/output
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7ce080)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7ce440)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7cde60)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7ce220)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7cdc40)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7ce000)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7cda20)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7c9e50)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7ca110)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7cdbc0)
+gsoap-2.8/gsoap/stdsoap2.c(11528): free(0x55c10c7ce2a0)
+gsoap-2.8/gsoap/stdsoap2.c(11540): free(0x55c10c7ce8f0)
+gsoap-2.8/gsoap/stdsoap2.c(11544): free(0x55c10c7ce4c0)
+Free ID hashtable
+Free pointer hashtable
+gsoap-2.8/gsoap/stdsoap2.c(12573): malloc(256) = 0x55c10c7ce4c0
+Free namespace stack
+Begin count phase (socket=3 mode=0x41 count=0)
+End of count phase
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(80) = 0x55c10c7cea50
+Calculating the message size with attachments, current count=0
+New count=0
+Initializing for output to socket=3/fd=1
+Free namespace stack
+Begin send phase (socket=3 mode=0x2000045 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:wsa'='http://schemas.xmlsoap.org/ws/2004/08/addressing'
+Attribute 'xmlns:wsdd'='http://schemas.xmlsoap.org/ws/2005/04/discovery'
+Attribute 'xmlns:tdn'='http://www.onvif.org/ver10/network/wsdl'
+Element begin tag='SOAP-ENV:Header' level='1' id='0' type=''
+Element_id 0x55c10c7cb960 type=4 id=-1
+Element begin tag='wsa:MessageID' level='2' id='0' type=''
+Element ending tag='wsa:MessageID'
+Element_id 0x55c10c7cf1a0 type=21 id=-1
+Element_id 0x55c10c7cdde0 type=4 id=0
+Element begin tag='wsa:RelatesTo' level='2' id='0' type=''
+Element ending tag='wsa:RelatesTo'
+Element_id 0x55c10ac7e040 type=4 id=-1
+Element begin tag='wsa:To' level='2' id='0' type=''
+Attribute 'SOAP-ENV:mustUnderstand'='true'
+Element ending tag='wsa:To'
+Element_id 0x55c10c7ce990 type=4 id=-1
+Element begin tag='wsa:Action' level='2' id='0' type=''
+Attribute 'SOAP-ENV:mustUnderstand'='true'
+Element ending tag='wsa:Action'
+Element_id 0x55c10c7cf130 type=54 id=-1
+Set attribute InstanceId='0'
+Allocate attribute InstanceId
+gsoap-2.8/gsoap/stdsoap2.c(14062): malloc(58) = 0x55c10c7cdbc0
+gsoap-2.8/gsoap/stdsoap2.c(14145): malloc(2) = 0x55c10c7c9ff0
+Allocate attribute value for InstanceId (0x55c10c7c9ff0)
+Set attribute MessageNumber='2'
+Allocate attribute MessageNumber
+gsoap-2.8/gsoap/stdsoap2.c(14062): malloc(61) = 0x55c10c7ce000
+gsoap-2.8/gsoap/stdsoap2.c(14145): malloc(2) = 0x55c10c7c9ad0
+Allocate attribute value for MessageNumber (0x55c10c7c9ad0)
+Element begin tag='wsdd:AppSequence' level='2' id='0' type=''
+Element ending tag='wsdd:AppSequence'
+Element ending tag='SOAP-ENV:Header'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element_id 0x7ffe20bf44e0 type=46 id=-1
+Element begin tag='wsdd:ProbeMatches' level='2' id='0' type=''
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+gsoap-2.8/gsoap/stdsoap2.c(14392): malloc(256) = 0x55c10c7ce2a0
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(48) = 0x55c10c7c9e50
+Element begin tag='wsdd:ProbeMatch' level='3' id='-1' type=''
+Element begin tag='wsa:EndpointReference' level='4' id='-1' type=''
+Element_id 0x55c10ac78bb0 type=4 id=-1
+Element begin tag='wsa:Address' level='5' id='0' type=''
+Element ending tag='wsa:Address'
+Element ending tag='wsa:EndpointReference'
+Element_id 0x55c10c7c9e50 type=6 id=-1
+Element begin tag='wsdd:Types' level='4' id='0' type=''
+Element ending tag='wsdd:Types'
+Element_id 0x55c10c7c9ef0 type=51 id=-1
+Element_id 0x55c10ac78a98 type=56 id=0
+Element begin tag='wsdd:Scopes' level='4' id='0' type=''
+Element ending tag='wsdd:Scopes'
+Element_id 0x55c10ac78be0 type=56 id=-1
+Element begin tag='wsdd:XAddrs' level='4' id='0' type=''
+Element ending tag='wsdd:XAddrs'
+Element begin tag='wsdd:MetadataVersion' level='4' id='-1' type=''
+Element ending tag='wsdd:MetadataVersion'
+Element ending tag='wsdd:ProbeMatch'
+Element ending tag='wsdd:ProbeMatches'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x2000045
+Send 1648 bytes to socket=3/fd=1
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7c9ff0)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7cdbc0)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7c9ad0)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7ce000)
+gsoap-2.8/gsoap/stdsoap2.c(11528): free(0x55c10c7ce2a0)
+gsoap-2.8/gsoap/stdsoap2.c(11544): free(0x55c10c7ce4c0)
+Free ID hashtable
+Free pointer hashtable
+Free all soap_malloc() data
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9e50)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cea50)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cf1a0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ce990)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cb960)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ce6c0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cf130)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cb8b0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9ef0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cb710)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cef60)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ca250)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ceee0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ca040)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9f70)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9dc0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ca0c0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9d30)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cdde0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9b20)
+Clean up for input/output
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free ID hashtable
+Free pointer hashtable
+Initializing for input from socket=3/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free ID hashtable
+Free pointer hashtable
+gsoap-2.8/gsoap/stdsoap2.c(12573): malloc(256) = 0x55c10c7ce4c0
+Free ID hashtable
+Read 877 bytes from socket=3/fd=0
+Read count=877 (+877)
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(62) = 0x55c10c7ca040
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+gsoap-2.8/gsoap/stdsoap2.c(14392): malloc(256) = 0x55c10c7ce2a0
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7ca110
+gsoap-2.8/gsoap/stdsoap2.c(3573): malloc(40) = 0x55c10c7c9350
+Push namespace binding (level=0) 'SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Push OK ('SOAP-ENV' matches 'SOAP-ENV' in namespace table)
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(57) = 0x55c10c7cb8b0
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7cda20
+gsoap-2.8/gsoap/stdsoap2.c(3573): malloc(35) = 0x55c10c7cbbf0
+Push namespace binding (level=0) 'wsa'='http://schemas.xmlsoap.org/ws/2004/08/addressing'
+Push OK ('wsa' matches 'wsa' in namespace table)
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(58) = 0x55c10c7cb960
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7cdc40
+gsoap-2.8/gsoap/stdsoap2.c(3573): malloc(36) = 0x55c10c7cbcb0
+Push namespace binding (level=0) 'wsdd'='http://schemas.xmlsoap.org/ws/2005/04/discovery'
+Push OK ('wsdd' matches 'wsdd' in namespace table)
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(56) = 0x55c10c7ca250
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7cde60
+gsoap-2.8/gsoap/stdsoap2.c(3573): malloc(34) = 0x55c10c7cbd70
+Push namespace binding (level=0) 'dn'='http://www.onvif.org/ver10/network/wsdl'
+Push OK ('dn' matches 'tdn' in namespace table)
+Tags and (default) namespaces match: 'SOAP-ENV:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+gsoap-2.8/gsoap/stdsoap2.c(12487): malloc(40) = 0x55c10c7cbdd0
+Tags and (default) namespaces match: 'SOAP-ENV:Header' 'SOAP-ENV:Header'
+Begin tag found (level=2) 'SOAP-ENV:Header'='SOAP-ENV:Header'
+Enter id='' type=29 location=(nil) size=64
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(88) = 0x55c10c7c9b20
+Tags and (default) namespaces match: 'wsa:MessageID' 'wsa:MessageID'
+Begin tag found (level=3) 'wsa:MessageID'='wsa:MessageID'
+Reading string content, flag=1
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(64) = 0x55c10c7ce000
+Enter id='' type=4 location=0x55c10c7ce000 size=8
+End tag found (level=3) 'wsa:MessageID'='wsa:MessageID'
+gsoap-2.8/gsoap/stdsoap2.c(14631): malloc(71) = 0x55c10c7cdbc0
+gsoap-2.8/gsoap/stdsoap2.c(14704): malloc(256) = 0x55c10c7ce080
+Tags and (default) namespaces match: 'SOAP-ENV:mustUnderstand' 'SOAP-ENV:mustUnderstand'
+Tags and (default) namespaces match: 'wsa:ReplyTo' 'wsa:ReplyTo'
+Begin tag found (level=3) 'wsa:ReplyTo'='wsa:ReplyTo'
+Reverting to last element 'wsa:ReplyTo' (level=2)
+Tags and (default) namespaces match: 'wsa:ReplyTo' 'wsa:ReplyTo'
+Begin tag found (level=3) 'wsa:ReplyTo'='wsa:ReplyTo'
+Enter id='' type=7 location=(nil) size=64
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(88) = 0x55c10c7c9d30
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(24) = 0x55c10c7ceb90
+Tags and (default) namespaces match: 'wsa:Address' 'wsa:Address'
+Begin tag found (level=4) 'wsa:Address'='wsa:Address'
+Reading string content, flag=1
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(88) = 0x55c10c7c9dc0
+Enter id='' type=4 location=0x55c10c7c9dc0 size=8
+End tag found (level=4) 'wsa:Address'='wsa:Address'
+End tag found (level=3) 'wsa:ReplyTo'='wsa:ReplyTo'
+Tags and (default) namespaces match: 'SOAP-ENV:mustUnderstand' 'SOAP-ENV:mustUnderstand'
+Tags and (default) namespaces match: 'wsa:To' 'wsa:To'
+Begin tag found (level=3) 'wsa:To'='wsa:To'
+Reading string content, flag=1
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(64) = 0x55c10c7ce220
+Enter id='' type=4 location=0x55c10c7ce220 size=8
+End tag found (level=3) 'wsa:To'='wsa:To'
+Tags and (default) namespaces match: 'SOAP-ENV:mustUnderstand' 'SOAP-ENV:mustUnderstand'
+Tags and (default) namespaces match: 'wsa:Action' 'wsa:Action'
+Begin tag found (level=3) 'wsa:Action'='wsa:Action'
+Reading string content, flag=1
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(72) = 0x55c10c7ce440
+Enter id='' type=4 location=0x55c10c7ce440 size=8
+End tag found (level=3) 'wsa:Action'='wsa:Action'
+End tag found (level=2) 'SOAP-ENV:Header'='SOAP-ENV:Header'
+gsoap-2.8/gsoap/plugin/wsaapi.c(1589): soap_wsa_header()
+WSA action='http://schemas.xmlsoap.org/ws/2005/04/discovery/Probe'
+Tags and (default) namespaces match: 'SOAP-ENV:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+Tags and (default) namespaces match: 'wsdd:Probe' 'wsdd:Probe'
+Enter id='' type=88 location=0x7ffe20bf4530 size=8
+Tags and (default) namespaces match: 'wsdd:Probe' 'wsdd:Probe'
+Begin tag found (level=3) 'wsdd:Probe'='wsdd:Probe'
+Reverting to last element 'wsdd:Probe' (level=2)
+Tags and (default) namespaces match: 'wsdd:Probe' 'wsdd:Probe'
+Begin tag found (level=3) 'wsdd:Probe'='wsdd:Probe'
+Enter id='' type=45 location=(nil) size=16
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(40) = 0x55c10c7cbfe0
+Tags and (default) namespaces match: 'wsdd:Types' 'wsdd:Types'
+Begin tag found (level=4) 'wsdd:Types'='wsdd:Types'
+Reading string content, flag=2
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(48) = 0x55c10c7cef60
+Normalized namespace(s) of QNames 'dn:NetworkVideoTransmitter'gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(48) = 0x55c10c7cf130
+Enter id='' type=6 location=0x55c10c7cf130 size=8
+End tag found (level=4) 'wsdd:Types'='wsdd:Types'
+End tag found (level=3) 'wsdd:Probe'='wsdd:Probe'
+End tag found (level=2) 'SOAP-ENV:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'SOAP-ENV:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded refs
+Resolution phase
+Resolution done
+Free namespace stack
+gsoap-2.8/gsoap/stdsoap2.c(11571): free(0x55c10c7cbd70)
+gsoap-2.8/gsoap/stdsoap2.c(11571): free(0x55c10c7cbcb0)
+gsoap-2.8/gsoap/stdsoap2.c(11571): free(0x55c10c7cbbf0)
+gsoap-2.8/gsoap/stdsoap2.c(11571): free(0x55c10c7c9350)
+gsoap-2.8/gsoap/plugin/wsddapi.c(1388): __wsdd__Probe()
+gsoap-2.8/gsoap/plugin/wsaapi.c(862): soap_wsa_check()
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(408) = 0x55c10c7cb710
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(40) = 0x55c10c7cbbf0
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(64) = 0x55c10c7cc0a0
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(48) = 0x55c10c7cf1a0
+gsoap-2.8/gsoap/plugin/wsaapi.c(893): soap_wsa_reply(action=http://schemas.xmlsoap.org/ws/2005/04/discovery/ProbeMatches)
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(88) = 0x55c10c7ce6c0
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(64) = 0x55c10c7cc150
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(80) = 0x55c10c7ce990
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(48) = 0x55c10c7c9e50
+Clean up for input/output
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7ca110)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7ca040)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7cda20)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7cb8b0)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7cdc40)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7cb960)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7cde60)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7ca250)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7ce080)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7cdbc0)
+gsoap-2.8/gsoap/stdsoap2.c(11528): free(0x55c10c7ce2a0)
+gsoap-2.8/gsoap/stdsoap2.c(11540): free(0x55c10c7cbdd0)
+gsoap-2.8/gsoap/stdsoap2.c(11544): free(0x55c10c7ce4c0)
+Free ID hashtable
+Free pointer hashtable
+gsoap-2.8/gsoap/stdsoap2.c(12573): malloc(256) = 0x55c10c7ce4c0
+Free namespace stack
+Begin count phase (socket=3 mode=0x41 count=0)
+End of count phase
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(80) = 0x55c10c7cea50
+Calculating the message size with attachments, current count=0
+New count=0
+Initializing for output to socket=3/fd=1
+Free namespace stack
+Begin send phase (socket=3 mode=0x2000045 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:wsa'='http://schemas.xmlsoap.org/ws/2004/08/addressing'
+Attribute 'xmlns:wsdd'='http://schemas.xmlsoap.org/ws/2005/04/discovery'
+Attribute 'xmlns:tdn'='http://www.onvif.org/ver10/network/wsdl'
+Element begin tag='SOAP-ENV:Header' level='1' id='0' type=''
+Element_id 0x55c10c7cc150 type=4 id=-1
+Element begin tag='wsa:MessageID' level='2' id='0' type=''
+Element ending tag='wsa:MessageID'
+Element_id 0x55c10c7c9e50 type=21 id=-1
+Element_id 0x55c10c7ce000 type=4 id=0
+Element begin tag='wsa:RelatesTo' level='2' id='0' type=''
+Element ending tag='wsa:RelatesTo'
+Element_id 0x55c10ac7e040 type=4 id=-1
+Element begin tag='wsa:To' level='2' id='0' type=''
+Attribute 'SOAP-ENV:mustUnderstand'='true'
+Element ending tag='wsa:To'
+Element_id 0x55c10c7ce990 type=4 id=-1
+Element begin tag='wsa:Action' level='2' id='0' type=''
+Attribute 'SOAP-ENV:mustUnderstand'='true'
+Element ending tag='wsa:Action'
+Element_id 0x55c10c7cf1a0 type=54 id=-1
+Set attribute InstanceId='0'
+Allocate attribute InstanceId
+gsoap-2.8/gsoap/stdsoap2.c(14062): malloc(58) = 0x55c10c7cdbc0
+gsoap-2.8/gsoap/stdsoap2.c(14145): malloc(2) = 0x55c10c7ceb10
+Allocate attribute value for InstanceId (0x55c10c7ceb10)
+Set attribute MessageNumber='3'
+Allocate attribute MessageNumber
+gsoap-2.8/gsoap/stdsoap2.c(14062): malloc(61) = 0x55c10c7cb960
+gsoap-2.8/gsoap/stdsoap2.c(14145): malloc(2) = 0x55c10c7ce780
+Allocate attribute value for MessageNumber (0x55c10c7ce780)
+Element begin tag='wsdd:AppSequence' level='2' id='0' type=''
+Element ending tag='wsdd:AppSequence'
+Element ending tag='SOAP-ENV:Header'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element_id 0x7ffe20bf44e0 type=46 id=-1
+Element begin tag='wsdd:ProbeMatches' level='2' id='0' type=''
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+gsoap-2.8/gsoap/stdsoap2.c(14392): malloc(256) = 0x55c10c7ce2a0
+gsoap-2.8/gsoap/stdsoap2.c(10415): malloc(48) = 0x55c10c7ca250
+Element begin tag='wsdd:ProbeMatch' level='3' id='-1' type=''
+Element begin tag='wsa:EndpointReference' level='4' id='-1' type=''
+Element_id 0x55c10ac78bb0 type=4 id=-1
+Element begin tag='wsa:Address' level='5' id='0' type=''
+Element ending tag='wsa:Address'
+Element ending tag='wsa:EndpointReference'
+Element_id 0x55c10c7ca250 type=6 id=-1
+Element begin tag='wsdd:Types' level='4' id='0' type=''
+Element ending tag='wsdd:Types'
+Element_id 0x55c10c7cbbf0 type=51 id=-1
+Element_id 0x55c10ac78a98 type=56 id=0
+Element begin tag='wsdd:Scopes' level='4' id='0' type=''
+Element ending tag='wsdd:Scopes'
+Element_id 0x55c10ac78be0 type=56 id=-1
+Element begin tag='wsdd:XAddrs' level='4' id='0' type=''
+Element ending tag='wsdd:XAddrs'
+Element begin tag='wsdd:MetadataVersion' level='4' id='-1' type=''
+Element ending tag='wsdd:MetadataVersion'
+Element ending tag='wsdd:ProbeMatch'
+Element ending tag='wsdd:ProbeMatches'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x2000045
+Send 1648 bytes to socket=3/fd=1
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7ceb10)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7cdbc0)
+gsoap-2.8/gsoap/stdsoap2.c(11522): free(0x55c10c7ce780)
+gsoap-2.8/gsoap/stdsoap2.c(11523): free(0x55c10c7cb960)
+gsoap-2.8/gsoap/stdsoap2.c(11528): free(0x55c10c7ce2a0)
+gsoap-2.8/gsoap/stdsoap2.c(11544): free(0x55c10c7ce4c0)
+Free ID hashtable
+Free pointer hashtable
+Free all soap_malloc() data
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ca250)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cea50)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9e50)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ce990)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cc150)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ce6c0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cf1a0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cc0a0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cbbf0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cb710)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cf130)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cef60)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7cbfe0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ce440)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ce220)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9dc0)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ceb90)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9d30)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7ce000)
+gsoap-2.8/gsoap/stdsoap2.c(10606): free(0x55c10c7c9b20)
+Clean up for input/output
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free ID hashtable
+Free pointer hashtable
+Initializing for input from socket=3/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free ID hashtable
+Free pointer hashtable
+gsoap-2.8/gsoap/stdsoap2.c(12573): malloc(256) = 0x55c10c7ce4c0
+Free ID hashtable

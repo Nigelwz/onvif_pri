@@ -1,0 +1,27 @@
+.depend ./src/main.o ./src/main_debug.o: src/main.c generated/soapH.h \
+ generated/soapStub.h gsoap-2.8/gsoap/stdsoap2.h generated/wsdd.nsmap \
+ gsoap-2.8/gsoap/plugin/wsddapi.h gsoap-2.8/gsoap/plugin/wsaapi.h \
+ gsoap-2.8/gsoap/plugin/threads.h
+.depend ./generated/soapC.o ./generated/soapC_debug.o: generated/soapC.c \
+ generated/soapH.h generated/soapStub.h gsoap-2.8/gsoap/stdsoap2.h
+.depend ./src/client_events.o ./src/client_events_debug.o: \
+ src/client_events.c gsoap-2.8/gsoap/plugin/wsddapi.h \
+ gsoap-2.8/gsoap/plugin/wsaapi.h generated/soapH.h generated/soapStub.h \
+ gsoap-2.8/gsoap/stdsoap2.h gsoap-2.8/gsoap/plugin/threads.h \
+ src/wsdd_param.h
+.depend ./src/wsdd_utils.o ./src/wsdd_utils_debug.o: src/wsdd_utils.c \
+ src/wsdd_param.h gsoap-2.8/gsoap/plugin/wsddapi.h \
+ gsoap-2.8/gsoap/plugin/wsaapi.h generated/soapH.h generated/soapStub.h \
+ gsoap-2.8/gsoap/stdsoap2.h gsoap-2.8/gsoap/plugin/threads.h
+.depend ./gsoap-2.8/gsoap/stdsoap2.o ./gsoap-2.8/gsoap/stdsoap2_debug.o: \
+ gsoap-2.8/gsoap/stdsoap2.c gsoap-2.8/gsoap/stdsoap2.h
+.depend ./gsoap-2.8/gsoap/plugin/wsaapi.o ./gsoap-2.8/gsoap/plugin/wsaapi_debug.o: \
+ gsoap-2.8/gsoap/plugin/wsaapi.c gsoap-2.8/gsoap/plugin/wsaapi.h \
+ generated/soapH.h generated/soapStub.h gsoap-2.8/gsoap/stdsoap2.h
+.depend ./gsoap-2.8/gsoap/plugin/wsddapi.o ./gsoap-2.8/gsoap/plugin/wsddapi_debug.o: \
+ gsoap-2.8/gsoap/plugin/wsddapi.c gsoap-2.8/gsoap/plugin/wsddapi.h \
+ gsoap-2.8/gsoap/plugin/wsaapi.h generated/soapH.h generated/soapStub.h \
+ gsoap-2.8/gsoap/stdsoap2.h gsoap-2.8/gsoap/plugin/threads.h
+.depend ./generated/soapClient.o ./generated/soapClient_debug.o: \
+ generated/soapClient.c generated/soapH.h generated/soapStub.h \
+ gsoap-2.8/gsoap/stdsoap2.h
